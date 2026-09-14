@@ -232,7 +232,7 @@ body{
 </style>
 </head>
 <body>
-<div class="bw-living-banner">Living Document &mdash; Facts and Exhibits Updated as New Evidence Is Received<span class="bw-banner-sep">|</span><span class="bw-banner-contribute">Contribute: <a href="mailto:info@bruinwatch.org">info@bruinwatch.org</a> <span class="bw-banner-gmail">(<a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=info@bruinwatch.org&amp;su=Evidence%20Contribution%20%E2%80%94%20Bruin%20Watch" target="_blank" rel="noopener noreferrer">open in Gmail</a>)</span></span></div>
+<div class="bw-living-banner">Living Document &mdash; Facts and Exhibits Updated as New Evidence Is Received<span class="bw-banner-sep">|</span><span class="bw-banner-contribute">Contribute: <a href="mailto:info@bruinwatch.org">info@bruinwatch.org</a></span></div>
 
 <!-- ═══ HERO ═══ -->
 <section class="hero">
@@ -390,12 +390,14 @@ body{
 .bw-evidence-fab .bw-fab-label{white-space:nowrap}
 @media (max-width:760px){.bw-evidence-fab{right:12px;padding:11px 14px;font-size:13px}.bw-evidence-fab .bw-fab-label{display:inline}}
 @media (max-width:560px){.bw-evidence-fab{padding:11px 12px;font-size:0}.bw-evidence-fab svg{margin:0}.bw-evidence-fab .bw-fab-label{display:none}}
-.bw-evidence-wrap{position:fixed;right:20px;top:50%;transform:translateY(-50%);z-index:9999;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.bw-evidence-wrap{position:fixed;right:20px;top:50%;transform:translateY(-50%);z-index:9999;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
 .bw-evidence-wrap .bw-evidence-fab{position:static;transform:none;right:auto;top:auto}
 .bw-evidence-wrap .bw-evidence-fab:hover,.bw-evidence-wrap .bw-evidence-fab:focus{transform:translateX(-3px)}
-.bw-evidence-gmail{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-size:11px;font-weight:600;color:#003262;background:rgba(255,255,255,0.92);padding:4px 10px;border-radius:999px;text-decoration:none;letter-spacing:0.02em;box-shadow:0 2px 6px rgba(0,0,0,0.18)}
-.bw-evidence-gmail:hover,.bw-evidence-gmail:focus{background:#fff;color:#003262;text-decoration:underline;outline:none}
-@media (max-width:560px){.bw-evidence-gmail{display:none}}
+.bw-evidence-address{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;font-size:11px;font-weight:600;color:#ffffff;text-align:right;line-height:1.35;text-shadow:0 1px 2px rgba(0,0,0,0.5);letter-spacing:0.02em;max-width:220px}
+.bw-evidence-address .bw-addr-label{display:block;font-weight:500;opacity:0.85;font-size:10px;text-transform:uppercase;letter-spacing:0.8px}
+.bw-evidence-address a{color:#FFC72C;text-decoration:none;font-weight:700;font-size:12px}
+.bw-evidence-address a:hover,.bw-evidence-address a:focus{text-decoration:underline;outline:none}
+@media (max-width:560px){.bw-evidence-address{display:none}}
 @media print{.bw-evidence-fab,.bw-evidence-wrap{display:none}}
 </style>
 <div class="bw-evidence-wrap">
@@ -403,7 +405,7 @@ body{
 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
 <span class="bw-fab-label">Share Evidence</span>
 </a>
-<a class="bw-evidence-gmail" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=info@bruinwatch.org&amp;su=Evidence%20Contribution%20%E2%80%94%20Bruin%20Watch&amp;body=I%20have%20information%20or%20documents%20that%20may%20be%20relevant%20to%20the%20Bruin%20Watch%20record." target="_blank" rel="noopener noreferrer">or open in Gmail</a>
+<div class="bw-evidence-address"><span class="bw-addr-label">Send Evidence to:</span><a href="mailto:info@bruinwatch.org">info@bruinwatch.org</a></div>
 </div>
 <!-- /BRUIN WATCH FLOATING EVIDENCE BUTTON -->
 </body>
